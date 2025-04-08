@@ -1,4 +1,4 @@
-### 基于nacos2.5.1版本修改适配达梦
+### 基于官方nacos2.5.1版本修改适配达梦 https://github.com/alibaba/nacos/releases/tag/2.5.1
 
 *参考文章：https://www.cnblogs.com/zhoutuo/p/18442988*
 
