@@ -20,6 +20,8 @@ mvn -Prelease-nacos clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true 
 
 ##### 注意事项：
 
+注：编译好的jar包我已在Releases发布，可下载直接食用
+
 启动时，添加单机启动参数
 
 ​	win为例：进入`nacos-servcer-2.5.1\nacos\bin` 目录，打开cmd,执行`startup.cmd -m standalone` 单机形式启动
@@ -48,3 +50,7 @@ mvn -Prelease-nacos clean install -Dmaven.test.skip=true -Dcheckstyle.skip=true 
 首次启动访问：http://127.0.0.1:8848/nacos 登录用户nacos/nacos会自动生成一个密码，该密码为初始密码
 
 ![img.png](doc/img_4.png)
+
+本地IDEA方式启动需要配置单机启动：
+配置启动类vm属性
+![img.png](doc/img_5.png)
